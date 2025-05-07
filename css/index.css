@@ -1,0 +1,47 @@
+/* Agrega esto al inicio de tu CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif; /* Fuente principal */
+}
+
+.menu {
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+    min-height: 6em;
+    font-family: 'Montserrat', sans-serif; /* Fuente alternativa */
+}
+
+.boton {
+    width: 160px;
+    background-color: #b71bb7;
+    box-shadow: 8px 5px 8px rgba(0,0,0,0.40),inset 10px 5px 5px rgba(255,255,255,0.35);    
+    margin: auto;
+    min-height:150px;
+    border-radius: 15px;
+    margin-top: 1.5em;
+    color: #FFFFFF;
+    border: 1px dotted #000000;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* Grosor de la fuente */
+}
+
+.texto_boton {
+    margin-top: 50px;
+    font-size: 1.2em;
+    text-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+}
