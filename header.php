@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-	<meta charset="utf-8">
-	
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/header.css">
+    <meta charset="UTF-8">
+    <title>Sistema de Ventas Lili Pink</title>
+    <link rel="stylesheet" href="css/base.css">
 </head>
-<div class="main_bar">
-    <div id="brand">
-        <img src="img/logo.jpg" alt="Logo" class="logo">
+<body>
+    <div class="main_bar">
+        <div id="brand">
+            <img src="img/logo.jpg" alt="Logo" class="logo">
+        </div>
+        <h3 class="info_pagina" id="infoPagina">Sistema de Ventas Lili Pink</h3>
+        <div class="cerrar-sesion">
+            <a href="Login/logout.php">Cerrar sesión</a>
+        </div>
     </div>
-    <h3 class="info_pagina" id="infoPagina">pagina</h3>
-</div>
+    <div id="infoGeneralText"></div>

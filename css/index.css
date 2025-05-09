@@ -1,47 +1,62 @@
-/* Agrega esto al inicio de tu CSS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
 
-body {
-    background-image: url('../img/fondo.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: 'Montserrat', sans-serif; /* Fuente principal */
+.menu_central {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .menu {
-    margin-top: 20px;
-    width: 30%;
-    float: left;
-    min-height: 6em;
-    font-family: 'Montserrat', sans-serif; /* Fuente alternativa */
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu:hover {
+    transform: translateY(-5px);
+}
+
+.menu1 {
+    background-color: #4CAF50;
+}
+
+.menu2 {
+    background-color: #2196F3;
+}
+
+.menu3 {
+    background-color: #FF9800;
+}
+
+.menu4 {
+    background-color: #9C27B0;
+}
+
+.menu5 {
+    background-color: #E91E63;
 }
 
 .boton {
-    width: 160px;
-    background-color: #b71bb7;
-    box-shadow: 8px 5px 8px rgba(0,0,0,0.40),inset 10px 5px 5px rgba(255,255,255,0.35);    
-    margin: auto;
-    min-height:150px;
-    border-radius: 15px;
-    margin-top: 1.5em;
-    color: #FFFFFF;
-    border: 1px dotted #000000;
-    cursor: pointer;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600; /* Grosor de la fuente */
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .texto_boton {
-    margin-top: 50px;
-    font-size: 1.2em;
-    text-shadow: none;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
