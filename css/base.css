@@ -1,0 +1,81 @@
+/* Base styles for the application */
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Main navigation bar */
+.main_bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.cerrar-sesion a {
+    color: white;
+    text-decoration: none;
+}
+
+.cerrar-sesion a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation menu */
+.navegador {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.link a:hover {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+/* Flash messages */
+.flash-message {
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+/* General text information */
+#infoGeneralText {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
