@@ -1,22 +1,34 @@
-# stockfly
+# Gestor de Ventas LiliPink
 
+Sistema de gestión de ventas y stock para tiendas de ropa y accesorios.  
+Desarrollado en **PHP, MySQL y JavaScript**.  
 
-Desarrollo sistema de stock y ventas tienda de ropa y accesorios.
-Desarrolado en <strong>PHP MySql y Js</strong>.
-La idea general del producto es un control de stock , pedidos y gestion de clientes 
-  y ventas ideal para una tienda de indumentaria de cualquier tipo.
-Se utiliza Ajax para realizar  las consultas a la base de datos de forma mas dinamica y
-mejor experiencia de usuario. 
-Idealmente hay tecnologias mas amenas para este trabajo como ser JQuery y los frameworks de PHP
-como Express, Joomla, Laravel etc, pero se prescinde de ellos con fines didacticos y de aprendizaje.
+El objetivo principal es ofrecer un control eficiente de inventario, pedidos, clientes y ventas, ideal para negocios de moda, indumentaria o retail.  
+Se utilizan técnicas de **Ajax** para mejorar la experiencia de usuario con consultas dinámicas a la base de datos.  
 
-Cualquier consulta sobre este material escribime <strong>gustavodevaler@gmail.com</strong>
+Aunque existen frameworks modernos como **JavaScript, Java** o librerías como **jQuery**, este proyecto se desarrolló con código nativo con fines **de proyecto profesional en el SENA**.
 
+---
 
-# Installation
+## 🚀 Instalación
 
-Clone or download to your server www or public_html folder.
+1. Clona este repositorio en la carpeta `htdocs` de XAMPP (o en `www` si usas otro servidor local):
+   ```bash
+   git clone https://github.com/Lina28-dev/gestor-ventas-lilipink.git
+   http://localhost/gestor-ventas-lilipink
 
-```
-your-domain/global/build-model.php
-```
+📌 Funcionalidades principales
+
+Gestión de stock de productos.
+
+Registro y control de ventas.
+
+Administración de clientes.
+
+Reportes básicos de pedidos y existencias.
+
+📩 Contacto
+
+Cualquier consulta o colaboración, puedes escribirme a:
+lina.oviedomm28@gmail.com
+
